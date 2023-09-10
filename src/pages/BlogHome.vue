@@ -7,14 +7,12 @@ let listings = ref({
 });
 
 let reload = async () => {
-    console.log("Listings: ", listings.value)
     var rawQuery = "";
     listings.value.queries.forEach(element => {
         rawQuery += "&" + element;
     });
     let resp = await fetch("https://api.jnichols.info/blog/user/listings?page_count=10");
     resp.json().then((json) => {
-        console.log(json);
         listings.value.listings = json;
     }).catch((e) => {
         console.error(e);

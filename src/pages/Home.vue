@@ -11,11 +11,7 @@ import Subsection from '../components/Subsection.vue'
       is mostly about the software.
     </p><br>
     <p>
-      If you want to contact me, I'm most responsive to email:
-      <ul>
-        <li>Personal: <a href="mailto:mail@jnichols.info">mail@jnichols.info</a></li>
-        <li>Professional: <a href="mailto:jake@dcpf.io">jake@dcpf.io</a></li>
-      </ul>
+      If you want to contact me, I'm most responsive to email: <a href="mailto:mail@jnichols.info">mail@jnichols.info</a>
     </p>
   </Section>
   <Section title="Skills" griddy>

@@ -14,11 +14,16 @@ import Subsection from '../components/Subsection.vue'
       If you want to contact me, I'm most responsive to email:
       <ul>
         <li>Personal: <a href="mailto:mail@jnichols.info">mail@jnichols.info</a></li>
-        <li>Professional: <a href="mailto:jnichols@cloudretic.com">jnichols@cloudretic.com</a></li>
+        <li>Professional: <a href="mailto:jake@dcpf.io">jake@dcpf.io</a></li>
       </ul>
     </p>
   </Section>
   <Section title="Skills" griddy>
+    <Subsection title="Certifications">
+      <ul>
+        <li>Mulesoft Certified Developer Level 1</li>
+      </ul>
+    </Subsection>
     <Subsection title="Full-Stack">
       <ul>
         <li>Frontend: HTML/CSS/JS, VueJS</li>
@@ -51,7 +56,9 @@ import Subsection from '../components/Subsection.vue'
     </Subsection>
     <Subsection title="Consultant, ArganoConnect (June 2023 to Today)">
       <p>
-        I just started, I'll get back to you.
+        Leveraging MuleSoft to build integrations between Salesforce and multiple proprietary SaaS products. Primary
+        responsibilities include meeting with clients for requirements gathering, managing internal and shared use
+        case documentation, developing integrations, and constructing demos for the client.
       </p>
     </Subsection>
   </Section>

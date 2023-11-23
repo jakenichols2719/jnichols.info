@@ -52,13 +52,13 @@ import Subsection from '../components/Subsection.vue'
     </Subsection>
     <Subsection title="Consultant, ArganoConnect (June 2023 to Today)">
       <p>
-        Leveraging MuleSoft to build integrations between Salesforce and multiple proprietary SaaS products. Primary
+        Leveraging MuleSoft to build integrations between Salesforce and proprietary SaaS products.. Primary
         responsibilities include meeting with clients for requirements gathering, managing internal and shared use
         case documentation, developing integrations, and constructing demos for the client.
       </p>
     </Subsection>
   </Section>
-  <Section title="Projects" griddy :bordery="false">
+  <Section title="FOSS Projects" griddy :bordery="false">
     <Subsection title="Matcha" linky="https://github.com/cloudretic/matcha">
       <p>
         Matcha is an HTTP request router library for Golang. There are many projects like this one, but Matcha is
@@ -90,16 +90,6 @@ import Subsection from '../components/Subsection.vue'
       <p>
         ...as well as a number of bugfixes and boilerplate additions. I contribute to Trickster fairly regularly,
         so this list grows over time.
-      </p>
-    </Subsection>
-    <Subsection title="jnichols.info/blog" linky="https://github.com/jakenichols2719/jnichols-dev-blog">
-      <p>
-        When I was putting this website together, I decided to pursue building my own blogging engine over using
-        a public one like Wordpress. It turned out that this was difficult, but the I'm very proud of the end result.
-        There's a lot to say about how the blog works; fortunately, I made two posts detailing the entire design
-        process, backend stack, and AWS hosting, and the entire project is open-source on GitHub if you want to
-        give it a look. <router-link to="/blog/c3b49f25-4cec-4a58-a820-c6e678e88bd7">You can find the first post
-        here</router-link>, or you can navigate to the blog at the top of the page.
       </p>
     </Subsection>
   </Section>

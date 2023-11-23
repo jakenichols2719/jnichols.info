@@ -4,10 +4,9 @@
 <template>
   <div class="navblock">
     <router-link class="navitem" to="/">Home</router-link>
-    <router-link class="navitem" to="/blog">Blog</router-link>
     <a class="navitem" href="https://frontrange.co/@jnichols">Mastodon</a>
     <a class="navitem" href="https://www.linkedin.com/in/james-nichols-9043691b4/">LinkedIn</a>
-    <a class="navitem" href="https://github.com/jakenichols2719">GitHub</a>
+    <a class="navitem" href="https://github.com/jnichols-git">GitHub</a>
   </div>
 </template>
 
